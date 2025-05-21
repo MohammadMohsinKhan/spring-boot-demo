@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("home")
     public ResponseEntity<String> home() {
-        return ResponseEntity.ok("Hello, World!");
+        return ResponseEntity.ok("Hello, World wiht github actions!");
     }
 }
